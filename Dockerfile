@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Dell Cloud Market Place <Cloud_Marketplace@dell.com>
+FROM ubuntu:15.10
+MAINTAINER David Levy <dvid.levy@gmail.com>
 
 # Update existing packages.
 RUN apt-get update 
